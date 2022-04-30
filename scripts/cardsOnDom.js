@@ -16,7 +16,7 @@ const cardsOnDom = (array) => {
         <div class="card-body">
           <h5 class="card-title">${item.name}</h5>
         </div>
-        <div class="card-footer">${item.houseName}</div>
+        <div class="card-footer">${item.house}</div>
       </div>
     </div>
   </div>`;
