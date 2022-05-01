@@ -15,7 +15,7 @@ const schoolSong = () => {
   <li>Just do your best, we'll do the rest,</li>
   <li>And learn until our brains all rot."</li>
   </ul>
-  <div class="float-right">~Official School Song</div>`;
+  <p class="float-right">~Official School Song</p>`;
   renderToDom("#schoolSongContainer", domString);
 }
 
