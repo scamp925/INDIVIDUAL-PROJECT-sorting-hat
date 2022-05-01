@@ -2,7 +2,7 @@ import renderToDom from "./renderToDom.js"
 
 const founders = () => {
   const domString = `<div>
-  <div>The Four Pillars of Hogwarts: The Founders</div>
+  <h3>The Four Pillars of Hogwarts: The Founders</h3>
    <img src="https://pbs.twimg.com/media/C4xn3rNWYAAvLIq.jpg" alt="Four Founders of Hogwarts"/>
    <ul>
    <li>A thousand years or more ago</li>
