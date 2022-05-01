@@ -1,8 +1,6 @@
 import students from "./data.js";
 import renderToDom from "./renderToDom.js";
 
-console.log(students.length);
-
 // HTML for all cards
 const cardsOnDom = (array) => {
   let domString = "";
@@ -21,7 +19,6 @@ const cardsOnDom = (array) => {
     </div>
   </div>`;
   }
-  console.log(domString);
   renderToDom("#studentContainer", domString);
 }
 
