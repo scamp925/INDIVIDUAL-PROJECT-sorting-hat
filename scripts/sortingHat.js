@@ -9,7 +9,7 @@ const sortingHat = () => {
   </div>
   <div class="col-12">
     <label for="studentImg" class="form-label">URL of Student's Photograph</label>
-    <input type="text" class="form-control" id="studentImg" placeholder="http://images6.fanpop.com/image/photos/43400000/Harry-Potter-fan-art-harry-potter-43424936-500-613.jpg">
+    <input type="text" class="form-control" id="studentImg" placeholder="https://static.wikia.nocookie.net/a15db0b6-6731-4c46-99d8-a70a476c7ee6">
   </div>
  
   <div class="col-12">
