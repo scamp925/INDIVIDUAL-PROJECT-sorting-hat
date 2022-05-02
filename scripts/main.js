@@ -4,6 +4,7 @@ import sortingHat from './sortingHat.js';
 import founders from './founders.js';
 import schoolSong from './schoolSong.js';
 import welcomeToHogwarts from './welcome.js';
+import housesBtn from './housesBtn.js';
 
 
 const startApp = () => {
@@ -11,6 +12,7 @@ const startApp = () => {
   founders();
   schoolSong();
   sortingHat();
+  housesBtn ();
   cardsOnDom(students);
 }
 
