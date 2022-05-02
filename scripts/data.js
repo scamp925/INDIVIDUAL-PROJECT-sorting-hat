@@ -5,7 +5,7 @@ const students = [
     name: "Harry Potter",
     houseImg: "https://i.pinimg.com/originals/01/fe/8b/01fe8b73e3660609f0f0785c4d7e9ef6.jpg",
     house: "Gryffindor",
-    expelled: false
+    expelled: true
   },
   {
     id: 2,
