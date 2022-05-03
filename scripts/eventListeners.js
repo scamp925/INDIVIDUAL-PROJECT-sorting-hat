@@ -18,15 +18,14 @@ const eventListeners = () => {
 
   //EXPEL A STUDENT BUTTON
   document.querySelector("#studentContainer").addEventListener("click", (e) => {
-    console.log(e.target.id) //Checked to see if e.target.id is NOT empty; CONSOLE SHOWS expel--false!!
-    if (e.target.id) {
-      const [method, expelled] = e.target.id.split("--");
-      console.log(expelled);
-      if (e.target.id.includes("false")) {
-      students.expelled = true;
+    console.log(e.target.id) //Check to see if e.target.id is NOT empty; CONSOLE SHOWS expel--1!!
+      if (e.target.id.includes(`expel`)) {
+          const [method, id] = e.target.id.split("--");
+          const expelledStudent = students.find(student => student.id === parseInt(id));
+          expelledStudent.expelled = true;
+          cardsOnDom(students); //Why 'students' and not 'expelledStudent'?
       }
-    }
-  });
+    });
 }
 
 export default eventListeners;

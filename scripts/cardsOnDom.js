@@ -13,7 +13,7 @@ const cardsOnDom = (array) => {
       </div>
       <div class="col-md-8">
       <div>
-        <button type="button" class="btn btn-danger" id="expel--${item.expelled}">Expel</button>
+        <button type="button" class="btn btn-danger" id="expel--${item.id}">Expel</button>
       </div>
         <div class="card-body">
           <h5 class="card-title">${item.name}</h5>
