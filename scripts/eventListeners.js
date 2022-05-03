@@ -9,12 +9,9 @@ const eventListeners = () => {
     // console.log("You clicked", e.target.id); // Double checking that the btns work; THEY WORK!!
     if (e.target.id === "allStudents") {
       const allStudents = students.filter(allHogwartStudents => allHogwartStudents.expelled === false)
-      console.log(allStudents);
       cardsOnDom(allStudents);
-      console.log(cardsOnDom(allStudents));
     } else if (e.target.id) {
       const filterHouses = students.filter(hogwartsHouse => hogwartsHouse.expelled === false && hogwartsHouse.house === e.target.id);
-      console.log(filterHouses);
       cardsOnDom(filterHouses);
     }
   });
@@ -24,8 +21,9 @@ const eventListeners = () => {
     console.log(e.target.id) //Checked to see if e.target.id is NOT empty; CONSOLE SHOWS expel--false!!
     if (e.target.id) {
       const [method, expelled] = e.target.id.split("--");
+      console.log(expelled);
       if (e.target.id.includes("false")) {
-      
+      students.expelled = true;
       }
     }
   });
