@@ -5,6 +5,7 @@ import founders from './founders.js';
 import schoolSong from './schoolSong.js';
 import welcomeToHogwarts from './welcome.js';
 import housesBtn from './housesBtn.js';
+import eventListeners from './eventListeners.js';
 
 const startApp = () => {
   welcomeToHogwarts();
@@ -13,6 +14,7 @@ const startApp = () => {
   sortingHat();
   housesBtn ();
   cardsOnDom(students);
+  eventListeners();
 }
 
 startApp();
