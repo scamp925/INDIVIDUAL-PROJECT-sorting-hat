@@ -18,6 +18,17 @@ const eventListeners = () => {
       cardsOnDom(filterHouses);
     }
   });
+
+  //EXPEL A STUDENT BUTTON
+  document.querySelector("#studentContainer").addEventListener("click", (e) => {
+    console.log(e.target.id) //Checked to see if e.target.id is NOT empty; CONSOLE SHOWS expel--false!!
+    if (e.target.id) {
+      const [method, expelled] = e.target.id.split("--");
+      if (e.target.id.includes("false")) {
+      
+      }
+    }
+  });
 }
 
 export default eventListeners;
