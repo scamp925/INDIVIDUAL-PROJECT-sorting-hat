@@ -5,7 +5,7 @@ import renderToDom from "./renderToDom.js";
 const cardsOnDom = (array) => {
   let domString = "";
   let domString2= "";
-  for (const item of students) {
+  for (const item of array) {
     if (item.expelled === false) {
       domString += `<div class="card mb-3" style="max-width: 540px;">
     <div class="row g-0">
@@ -13,6 +13,9 @@ const cardsOnDom = (array) => {
         <img src="${item.studentImg}" class="img-fluid rounded-start" alt="...">
       </div>
       <div class="col-md-8">
+      <div>
+        <button type="button" class="btn btn-danger">Expel</button>
+      </div>
         <div class="card-body">
           <h5 class="card-title">${item.name}</h5>
         </div>

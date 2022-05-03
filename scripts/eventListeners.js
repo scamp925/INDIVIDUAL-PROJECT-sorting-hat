@@ -16,7 +16,6 @@ const eventListeners = () => {
       const filterHouses = students.filter(hogwartsHouse => hogwartsHouse.expelled === false && hogwartsHouse.house === e.target.id);
       console.log(filterHouses);
       cardsOnDom(filterHouses);
-      console.log(cardsOnDom(filterHouses));
     }
   });
 }
