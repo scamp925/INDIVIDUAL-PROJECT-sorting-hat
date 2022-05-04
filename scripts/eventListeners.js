@@ -2,7 +2,20 @@ import cardsOnDom from "./cardsOnDom.js";
 import students from "./data.js";
 
 const eventListeners = () => {
-  //RAMDONIZER FOR SORTING HAT
+  //FORM FOR SORTING HAT WITH RANDOMIZER
+  const form = document.querySelector('form');
+  form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    const newStudentObj = {
+      name: document.querySelector("#studentName").value, // The key in this object needs to be the same as the key in the original array of objects
+      studentImg: document.querySelector("#studentImg").value
+    }
+    
+    students.push(newStudentObj);
+    cardsOnDom(students);
+
+    form.reset();
+  });
 
   // FILTER HOUSE BUTTONS
   document.querySelector("#housesBtnContainer").addEventListener("click", (e) => {
