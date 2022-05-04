@@ -18,10 +18,9 @@ h1 {
   flex-wrap: wrap;
 }
 
-/* .founders {
-  float: left;
-  margin: 5px 125px;
-} */
+.founders {
+  width: 60%;
+}
 
 .fourPillars {
   text-align: center;
@@ -34,11 +33,10 @@ ul {
   margin-bottom: 50px;
 }
 
-/* .sortingHat {
-  float: left;
-  margin: 0px 25px;
-  width: 50%;
-} */
+.sortingHat {
+  /* margin: 0px 25px; */
+  width: 40%;
+}
 
 .error {
   margin-top: 10px;
