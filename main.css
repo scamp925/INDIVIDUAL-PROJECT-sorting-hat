@@ -11,6 +11,10 @@
   float: right;
 }
 
+.expel {
+  margin: 3% 3% 0% 0%
+}
+
 ul {
   list-style-type: none;
   margin-bottom: 50px;

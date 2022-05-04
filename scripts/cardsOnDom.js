@@ -13,13 +13,11 @@ const cardsOnDom = (array) => {
         <img src="${item.studentImg}" class="img-fluid rounded-start" alt="...">
       </div>
       <div class="col-md-8">
-      <div>
-        <button type="button" class="btn btn-danger float-right" id="expel--${item.id}">Expel</button>
-      </div>
+      <button type="button" class="btn btn-danger float-right expel" id="expel--${item.id}">Expel</button>
         <div class="card-body">
           <h5 class="card-title">${item.name}</h5>
-        </div>
-        <div class="card-footer">${item.house}</div>
+          </div>
+         <div class="card-footer">${item.house}</div>
       </div>
     </div>
   </div>`
