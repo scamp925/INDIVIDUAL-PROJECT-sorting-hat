@@ -2,8 +2,8 @@ body{
   font-family: 'Cinzel', serif;
 }
 
-.welcome {
-  font-size: xx-large;
+h1 {
+  font-size: 5em;
   font-weight: bold;
   text-align: center;
 }
