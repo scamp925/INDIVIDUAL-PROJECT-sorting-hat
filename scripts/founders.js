@@ -31,8 +31,8 @@ const founders = () => {
    <li>Most worthy of admission;</li>
    <li>And power-hungry Slytherin</li>
    <li> Loved those of great ambition."</li>
+   <li class="float-right">~The Sorting Hat</li>
    </ul>
-   <p class="float-right">~The Sorting Hat</p>
   </div>
   `
   renderToDom("#foundersContainer", domString);

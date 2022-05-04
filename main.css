@@ -1,3 +1,18 @@
-/* .hogwarts = {
-  background-image = url("https://cdn.jwplayer.com/v2/media/gpYnvJVq/poster.jpg?width=1920");
-} */
+.hogwarts {
+  font-family: 'Cinzel', serif;
+  text-align: center;
+}
+
+.deathEater {
+  height: 250px;
+}
+
+.float-right {
+  float: right;
+}
+
+ul {
+  list-style-type: none;
+  margin-bottom: 50px;
+  width: 30%;
+}
