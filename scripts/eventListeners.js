@@ -6,22 +6,27 @@ const eventListeners = () => {
   const form = document.querySelector('form');
   form.addEventListener("submit", (e) => {
     e.preventDefault();
-    const houseNames = ["Gryffindor", "Hufflepuff", "Ravenclaw", "Slytherin"];
-    const randomHouse = houseNames[Math.floor(Math.random()*houseNames.length - 1)];
-    console.log(randomHouse);
-    
-    const newStudentObj = {
-      id: students.length + 1,
-      name: document.querySelector("#studentName").value, // The key in this object needs to be the same as the key in the original array of objects
-      studentImg: document.querySelector("#studentImg").value,
-      house: randomHouse,
-      expelled: false
+    if (document.querySelector("#studentName").value === "" || document.querySelector("#studentImg").value === "") {
+      const error = document.querySelector("#error");
+      console.log(error);
+      error.innerHTML = "Please fill out before you can be sorted";
+    } else {
+      const houseNames = ["Gryffindor", "Hufflepuff", "Ravenclaw", "Slytherin"];
+      const randomHouse = houseNames[Math.floor(Math.random()*houseNames.length - 1)]; // -1 needed because length is '4', but array start with the 0 index, so 'Slytherin' as far as indexes go is index '3'
+      
+      const newStudentObj = {
+        id: students.length + 1,
+        name: document.querySelector("#studentName").value, // The key in this object needs to be the same as the key in the original array of objects
+        studentImg: document.querySelector("#studentImg").value,
+        house: randomHouse,
+        expelled: false
+      }
+      students.push(newStudentObj);
+      cardsOnDom(students);
+      
+      form.reset();
     }
-    console.log(newStudentObj);
-    students.push(newStudentObj);
-    cardsOnDom(students);
 
-    form.reset();
   });
 
   // FILTER HOUSE BUTTONS
