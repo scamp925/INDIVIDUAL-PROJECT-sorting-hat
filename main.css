@@ -26,6 +26,11 @@ h1 {
   text-align: center;
 }
 
+.fourPillarsPic {
+  height: auto;
+  width: 450px;
+}
+
 ul {
   font-style: italic;
   float: right;
