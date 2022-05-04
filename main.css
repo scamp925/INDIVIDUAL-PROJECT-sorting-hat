@@ -1,9 +1,67 @@
-.hogwarts {
+body{
   font-family: 'Cinzel', serif;
+}
+
+.welcome {
+  font-size: xx-large;
+  font-weight: bold;
   text-align: center;
 }
 
-.deathEater {
+.topHalf {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bottomHalf {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* .founders {
+  float: left;
+  margin: 5px 125px;
+} */
+
+.fourPillars {
+  text-align: center;
+}
+
+ul {
+  font-style: italic;
+  float: right;
+  list-style-type: none;
+  margin-bottom: 50px;
+}
+
+/* .sortingHat {
+  float: left;
+  margin: 0px 25px;
+  width: 50%;
+} */
+
+.error {
+  margin-top: 10px;
+}
+
+/* .housesAndStudents {
+  float: left;
+} */
+
+/* .houseBtns {
+  float: left;
+  margin: auto;
+}
+
+.studentCards {
+ float: left;
+} */
+
+/* .expelledCards {
+  float: right;
+} */
+
+.deathEaterPic {
   height: 250px;
 }
 
@@ -13,10 +71,4 @@
 
 .expel {
   margin: 3% 3% 0% 0%
-}
-
-ul {
-  list-style-type: none;
-  margin-bottom: 50px;
-  width: 30%;
 }
