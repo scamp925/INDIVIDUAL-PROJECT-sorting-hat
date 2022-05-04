@@ -6,11 +6,18 @@ const eventListeners = () => {
   const form = document.querySelector('form');
   form.addEventListener("submit", (e) => {
     e.preventDefault();
-    const newStudentObj = {
-      name: document.querySelector("#studentName").value, // The key in this object needs to be the same as the key in the original array of objects
-      studentImg: document.querySelector("#studentImg").value
-    }
+    const houseNames = ["Gryffindor", "Hufflepuff", "Ravenclaw", "Slytherin"];
+    const randomHouse = houseNames[Math.floor(Math.random()*houseNames.length - 1)];
+    console.log(randomHouse);
     
+    const newStudentObj = {
+      id: students.length + 1,
+      name: document.querySelector("#studentName").value, // The key in this object needs to be the same as the key in the original array of objects
+      studentImg: document.querySelector("#studentImg").value,
+      house: randomHouse,
+      expelled: false
+    }
+    console.log(newStudentObj);
     students.push(newStudentObj);
     cardsOnDom(students);
 
