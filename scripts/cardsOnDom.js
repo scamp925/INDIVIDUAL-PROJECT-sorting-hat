@@ -2,8 +2,9 @@ import renderToDom from "./renderToDom.js";
 
 // // HTML for all cards
 const cardsOnDom = (array) => {
-  let domString = "";
-  let domString2= "";
+  let domString = "<p>First Year Students</p>";
+  let domString2= `<img src="https://images.squarespace-cdn.com/content/v1/56c8ab73d51cd438176bca48/1481412298088-P6SN3DJWBFMZKFQ1CMRG/image-asset.jpeg?format=1000w" alt="Death Eater Sign" class="deathEater">
+  <p>Death Eaters</p>`;
   for (const item of array) {
     if (item.expelled === false) {
       domString += `<div class="card mb-3" style="max-width: 540px;">

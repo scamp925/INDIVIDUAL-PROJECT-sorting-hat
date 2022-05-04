@@ -8,8 +8,8 @@ const eventListeners = () => {
     e.preventDefault();
     if (document.querySelector("#studentName").value === "" || document.querySelector("#studentImg").value === "") {
       const error = document.querySelector("#error");
-      console.log(error);
       error.innerHTML = "Please fill out before you can be sorted";
+      // Yo, this conditional statement worked and I figured it out completely by myself!! Happy dance!!
     } else {
       const houseNames = ["Gryffindor", "Hufflepuff", "Ravenclaw", "Slytherin"];
       const randomHouse = houseNames[Math.floor(Math.random()*houseNames.length - 1)]; // -1 needed because length is '4', but array start with the 0 index, so 'Slytherin' as far as indexes go is index '3'
@@ -33,10 +33,11 @@ const eventListeners = () => {
   document.querySelector("#housesBtnContainer").addEventListener("click", (e) => {
     // console.log("You clicked", e.target.id); // Double checking that the btns work; THEY WORK!!
     if (e.target.id === "allStudents") {
-      const allStudents = students.filter(allHogwartStudents => allHogwartStudents.expelled === false)
-      cardsOnDom(allStudents);
+      // const allStudents = students.filter(allHogwartStudents => allHogwartStudents.expelled === false)
+      cardsOnDom(students);
     } else if (e.target.id) {
-      const filterHouses = students.filter(hogwartsHouse => hogwartsHouse.expelled === false && hogwartsHouse.house === e.target.id);
+      const filterHouses = students.filter(hogwartsHouse => hogwartsHouse.expelled === true || hogwartsHouse.house === e.target.id);
+      // const filterHouses = students.filter(hogwartsHouse => hogwartsHouse.expelled === false && hogwartsHouse.house === e.target.id);
       cardsOnDom(filterHouses);
     }
   });
