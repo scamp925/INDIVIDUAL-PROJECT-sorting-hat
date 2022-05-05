@@ -16,8 +16,9 @@ const cardsOnDom = (array) => {
       <button type="button" class="btn btn-danger float-right expel" id="expel--${item.id}">Expel</button>
         <div class="card-body">
           <h5 class="card-title">${item.name}</h5>
-          </div>
+        </div>
          <div class="card-footer">${item.house}</div>
+         <img src="${item.houseImg}" alt="...">
       </div>
     </div>
   </div>`
