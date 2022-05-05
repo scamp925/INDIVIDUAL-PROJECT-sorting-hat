@@ -18,7 +18,7 @@ const cardsOnDom = (array) => {
           <h5 class="card-title">${item.name}</h5>
         </div>
          <div class="card-footer">${item.house}</div>
-         <img src="${item.houseImg}" alt="...">
+         <img src="${item.houseImg}" class="houseImg" alt="...">
       </div>
     </div>
   </div>`
