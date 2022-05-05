@@ -8,7 +8,7 @@ const eventListeners = () => {
     e.preventDefault();
     if (document.querySelector("#studentName").value === "" || document.querySelector("#studentImg").value === "") {
       const error = document.querySelector("#error");
-      error.innerHTML = "Please fill out before you can be sorted";
+      error.innerHTML = "**Please fill out the form before you can be sorted";
       // Yo, this conditional statement worked and I figured it out completely by myself!! Happy dance!!
     } else {
       const houseNames = ["Gryffindor", "Hufflepuff", "Ravenclaw", "Slytherin"];
