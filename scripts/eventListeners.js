@@ -33,11 +33,9 @@ const eventListeners = () => {
   document.querySelector("#housesBtnContainer").addEventListener("click", (e) => {
     // console.log("You clicked", e.target.id); // Double checking that the btns work; THEY WORK!!
     if (e.target.id === "allStudents") {
-      // const allStudents = students.filter(allHogwartStudents => allHogwartStudents.expelled === false)
       cardsOnDom(students);
     } else if (e.target.id) {
       const filterHouses = students.filter(hogwartsHouse => hogwartsHouse.expelled === true || hogwartsHouse.house === e.target.id);
-      // const filterHouses = students.filter(hogwartsHouse => hogwartsHouse.expelled === false && hogwartsHouse.house === e.target.id);
       cardsOnDom(filterHouses);
     }
   });
@@ -49,7 +47,7 @@ const eventListeners = () => {
           const [method, id] = e.target.id.split("--");
           const expelledStudent = students.find(student => student.id === parseInt(id));
           expelledStudent.expelled = true;
-          cardsOnDom(students); //Why 'students' and not 'expelledStudent'?
+          cardsOnDom(students);
       }
     });
 }
