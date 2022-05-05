@@ -1,10 +1,12 @@
 body{
+  background-color: beige;
   font-family: 'Cinzel', serif;
 }
 
 h1 {
-  font-size: 5em;
+  font-size: 4em;
   font-weight: bold;
+  margin: 25px 0px 60px 0px;
   text-align: center;
 }
 
@@ -33,39 +35,37 @@ h1 {
 
 ul {
   font-style: italic;
-  float: right;
+  float: left;
   list-style-type: none;
-  margin-bottom: 50px;
+  margin: 15px 5px 50px 0px;
 }
 
 .sortingHat {
-  /* margin: 0px 25px; */
-  width: 40%;
+  margin: 100px 0px;
+  width: 38%;
 }
 
 .error {
+  color: red;
+  font-size: large;
+  font-weight: bold;
   margin-top: 10px;
 }
 
-/* .housesAndStudents {
-  float: left;
-} */
-
-/* .houseBtns {
-  float: left;
-  margin: auto;
+.housesAndStudents {
+  margin: 0px 65px;
 }
 
-.studentCards {
- float: left;
-} */
-
-/* .expelledCards {
-  float: right;
-} */
+p {
+  font-size: x-large;
+  margin-top: 25px;
+}
 
 .deathEaterPic {
-  height: 250px;
+  display: block;
+  margin: auto;
+  height: 300px;
+  width: 50%;
 }
 
 .float-right {
