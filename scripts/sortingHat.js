@@ -2,7 +2,7 @@ import renderToDom from "./renderToDom.js";
 
 const sortingHat = () => {
   const domString = `<div>
-  <p>Now, my dear first year student, the time has come for you to be sorted into your Hogwarts house. Let the magic begin!</p>
+  <p>Now, dear first year student, the time has come for you to be sorted into your Hogwarts house. Let the magic begin!</p>
   <form class="row g-3">
   <div class="col-12">
     <label for="studentName" class="form-label">Student's Name</label>

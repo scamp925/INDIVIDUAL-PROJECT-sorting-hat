@@ -72,6 +72,13 @@ p {
   width: 50%;
 }
 
+.death-eater {
+  background-color: black;
+  color: white;
+  font-size: x-large;
+  font-weight: bold;
+}
+
 .float-right {
   float: right;
 }
