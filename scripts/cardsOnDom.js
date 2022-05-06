@@ -8,7 +8,7 @@ const cardsOnDom = (array) => {
   for (const item of array) {
     if (item.expelled === false) {
       domString += `<div class="card mb-3" style="max-width: 540px;">
-    <div class="row g-0">
+    <div class="row g-0 ${item.house}">
       <div class="col-md-4">
         <img src="${item.studentImg}" class="img-fluid rounded-start" alt="...">
       </div>
@@ -18,7 +18,6 @@ const cardsOnDom = (array) => {
           <h5 class="card-title">${item.name}</h5>
         </div>
          <div class="card-footer">${item.house}</div>
-         <img src="${item.houseImg}" class="houseImg" alt="...">
       </div>
     </div>
   </div>`

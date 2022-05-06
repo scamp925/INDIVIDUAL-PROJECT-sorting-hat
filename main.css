@@ -77,8 +77,30 @@ p {
   margin: 3% 3% 0% 0%
 }
 
-.houseImg {
-  display: block;
-  margin: auto;
-  width: 160px;
+.Gryffindor {
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d7b2e79c-09db-4ffa-b7bd-3540414ad0dd/d5z2f66-d8d9c79c-12d0-47e9-9d93-c36efb2bcbff.jpg/v1/fill/w_900,h_563,q_75,strp/harry_potter_wallpaper__gryffindor_stripes_by_theladyavatar_d5z2f66-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTYzIiwicGF0aCI6IlwvZlwvZDdiMmU3OWMtMDlkYi00ZmZhLWI3YmQtMzU0MDQxNGFkMGRkXC9kNXoyZjY2LWQ4ZDljNzljLTEyZDAtNDdlOS05ZDkzLWMzNmVmYjJiY2JmZi5qcGciLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.i-630GtLeaEKfAMKHVrjq5FK8sOyzL1COwqoNjhnyzg);
+  color: white;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.Hufflepuff {
+  background-image: url(https://i.pinimg.com/originals/15/0f/2b/150f2b856ea49796ddd9d14cc7607a86.jpg);
+  color: white;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.Ravenclaw {
+  background-image: url(https://bookstr.com/wp-content/uploads/2020/03/Ravenclaw-colors-I-T-768x480.jpg);
+  color: white;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.Slytherin {
+  background-image: url(https://i.pinimg.com/originals/b4/a4/81/b4a4817cb04d74afda2e4f95b89616a2.jpg);
+  color: white;
+  font-size: x-large;
+  font-weight: bold;
 }
