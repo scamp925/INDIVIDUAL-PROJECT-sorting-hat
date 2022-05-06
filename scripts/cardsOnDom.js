@@ -23,7 +23,7 @@ const cardsOnDom = (array) => {
   </div>`
   } else {
     domString2 += `<div class="card mb-3" style="max-width: 540px;">
-      <div class="row g-0">
+      <div class="row g-0 death-eater">
         <div class="col-md-4">
           <img src="${item.studentImg}" class="img-fluid rounded-start" alt="...">
         </div>
