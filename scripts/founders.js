@@ -5,7 +5,7 @@ const founders = () => {
   <h3 class="fourPillars">The Four Pillars of Hogwarts: The Founders</h3>
    <img src="https://pbs.twimg.com/media/C4xn3rNWYAAvLIq.jpg" alt="Four Founders of Hogwarts" class="fourPillarsPic"/>
    <ul>
-   <li>A thousand years or more ago</li>
+   <li>"A thousand years or more ago</li>
    <li>When I was newly sewn,</li>
    <li>There lived four wizards of renown,</li>
    <li>Whose names are still well-known:</li>
