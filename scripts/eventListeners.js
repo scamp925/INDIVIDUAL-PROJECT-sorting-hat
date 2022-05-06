@@ -18,6 +18,7 @@ const eventListeners = () => {
         id: students.length + 1,
         name: document.querySelector("#studentName").value, // The key in this object needs to be the same as the key in the original array of objects
         studentImg: document.querySelector("#studentImg").value,
+        // houseImg: assignHouseColors,
         house: randomHouse,
         expelled: false
       }
