@@ -12,7 +12,7 @@ const eventListeners = () => {
       // Yo, this conditional statement worked and I figured it out completely by myself!! Happy dance!!
     } else {
       const houseNames = ["Gryffindor", "Hufflepuff", "Ravenclaw", "Slytherin"];
-      const randomHouse = houseNames[Math.floor(Math.random()*houseNames.length - 1)]; // -1 needed because length is '4', but array start with the 0 index, so 'Slytherin' as far as indexes go is index '3'
+      const randomHouse = houseNames[Math.floor(Math.random()*houseNames.length)];
       
       const newStudentObj = {
         id: students.length + 1,
@@ -23,8 +23,10 @@ const eventListeners = () => {
       }
       students.push(newStudentObj);
       cardsOnDom(students);
-      
+
       form.reset();
+
+      alert(`Congratulations! You've been sorted into the ${randomHouse} house!`);
     }
 
   });
