@@ -6,6 +6,17 @@ It's your turn to see which house you belong to, so let's get started!!
 - For anyone wanting to clone my code from GitHub to their local machine, feel free to do so! To run the server, you will have to type http-server -o into the terminal.
 
 Good luck with your sorting! Can't wait to see which house you will be in! Fingers crossed for Ravenclaw with me!
+
+## Sorting Hat Walk Through
+#### Landing Page
+<img src="gif/hp-overview.gif" alt="gif of the sorting hat app" style="height:800px;">
+
+#### Sorting
+<img src="gif/hp-sorting.gif" alt="walk through of being sorted" style="height:800px;">
+
+#### Filtering Houses and Expellingit 
+<img src="gif/hp-filter-and-expel.gif" alt="gif of the sorting hat app" style="height:800px;">
+
 ## What I Learned
 - I used Mockaroo for the first time to generate my data. I learned a lot about Mockaroo by using Google including how Mockaroo has its randomizer which made creating data with random house assignments easy. The only thing I had to go back and update were the student pictures. I couldn't figure out how to get pictures of people to generate with Mockaroo, but this website did most of the work for me in creating my data, so THANK YOU Mockaroo
 - I used Figma by myself for the first time for this project. Figma is great! I was able to put my "vision" on "paper". I will admit that my final product's layout isn't exactly the same as what I created in Figma, but there are definitely elements I kept. That being said, I referenced Figma plenty of times when working on the HTML and CSS to get things looking how I wanted them to. It was time well spent in planning.
