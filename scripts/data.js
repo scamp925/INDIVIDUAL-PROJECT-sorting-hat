@@ -40,13 +40,8 @@ const students = [
     "name": "Paige",
     "house": "Ravenclaw",
     "expelled": false
-  }, {
-    "id": 7,
-    "studentImg": "https://www.cuded.com/wp-content/uploads/2013/09/34-broken_open_by_hayleylv-d4dljp4.jpg",
-    "name": "Shae",
-    "house": "Hufflepuff",
-    "expelled": true
-  }, {
+  },
+  {
     "id": 8,
     "studentImg": "https://www.thisiscolossal.com/wp-content/uploads/2021/08/rainbow_series_3.jpg",
     "name": "Kore",
