@@ -1,5 +1,18 @@
 # Sorting Hat
+Welcome to Hogwarts! First thing first: you need to be sorted in your Hogwarts house! This app's target audience is for Harry Potter fanatics of all ages, though, Muggles are welcomed, too. The primary funcition of this app is to be sorted into one of the four Hogwarts houses namely Gryffindor, Hufflepuff, Ravenclaw and Slytherin. Any previously sorted student can be expelled and be sent to Voldemort's death eaters. Both Hogwarts students and death eaters are displayed on the webpage, but rendered in separate areas.
 
+It's your turn to see which house you belong to, so let's get started!!
+- [Sariah Campopiano's Sorting Hat](https://sariah-campopiano-hogwarts-sorting-hat.netlify.app)
+- For anyone wanting to clone my code from GitHub to their local machine, feel free to do so! To run the server, you will have to type http-server -o into the terminal.
+
+Good luck with your sorting! Can't wait to see which house you will be in! Fingers crossed for Ravenclaw with me!
+## What I Learned
+- I used Mockaroo for the first time to generate my data. I learned a lot about Mockaroo by using Google including how Mockaroo has its randomizer which made creating data with random house assignments easy. The only thing I had to go back and update were the student pictures. I couldn't figure out how to get pictures of people to generate with Mockaroo, but this website did most of the work for me in creating my data, so THANK YOU Mockaroo
+- I used Figma by myself for the first time for this project. Figma is great! I was able to put my "vision" on "paper". I will admit that my final product's layout isn't exactly the same as what I created in Figma, but there are definitely elements I kept. That being said, I referenced Figma plenty of times when working on the HTML and CSS to get things looking how I wanted them to. It was time well spent in planning.
+- Break steps into small, small pieces. I spent most of Saturday planning my project before touching a line of code. I wanted to get my idea out and plan what I could foresee. In my GitHub, I created a "project" with this project broken down into small steps. It helped me think through the project to get a fairly clear idea of how I was going to accomplish the technical requirements. Most of my "to do" cards were fairly manageable, but I had a couple that I needed to break down even further after writting a bit of code, so I did which helped me move forward.
+- Now this one I didn't learn from planning, but I wanted to have it here: Ask for help and not 2 hours after you tried to problem solve it. During my project, I was struggling to filter my card properly. I felt like my filter logic was correct, but what was being rendered to the DOM was not what I was expecting. I read through my code so many times trying to figure out where I misspelled something or let something out, but I couldn't find it. I went to Google, but still couldn't find my answer. All this time, I was telling myself, "Just put in a help ticket". I was at war with myself saying I could figure out the problem or it would be embarassing to show admit that I was only at the filtering portion of the project, but I pushed through all those negative thought that were trying to hold me back, swallowed my pride and put in a help ticket. Dr. T had me in her breakout room so fast and figured out the problem in less than 10 minutes. That's how easy it was to move forward. Lesson learned: Don't sit on a problem too long and just put in the help ticket.
+
+# Assignment Instructions from Instructors
 ## Goals
 The goal of this project is to test your knowledge and to have a FUN time stretching yourself on your FIRST independent application that will become a part of your portfolio.
 
@@ -27,9 +40,6 @@ In the end, your app will look something like:
 
 ![screencapture-drt-sorting-netlify-app-2022-04-23-14_28_47](https://user-images.githubusercontent.com/29741570/164943525-d20275be-c312-42d1-9730-0c1fd3fd9834.png)
 
-
-<!-- [See Demo](https://drt-sortinghat.netlify.app/)
- -->
 ## Technical Requirements
 - You MUST plan your project and create issue tickets and a project board for your project
 - You MAY use the `renderToDom()` function that we worked on in class, but you also need to be able to explain it if you use it
@@ -43,15 +53,6 @@ In the end, your app will look something like:
 - Voldermort's Army: Create a separate container of cards that hold the cards for students that have been expelled. These should be styled differently from Hogwarts students.
 - Add filter buttons to filter the non-expelled students by house
 
-## Expel Button Hints
-Think of a way you can expel students without just hiding those divs on the page. This would mean when the button is clicked you modify the array of students and pass the new array into your `renderToDom()` function.  Double hint - put a unique id in the student object when you create them.
-
 ## Optional Bonus
 - House Colors: The color of the student's card changes depending on which house they were sorted.
 - Card Sorting/Ordering: Sort the student cards by some criteria (i.e. alphabetically by name, by house)
-
-## What I Learned From Planning
-- I used Mockaroo for the first time to generate my data. I learned a lot about Mockaroo by using Google including how Mockaroo has its randomizer which made creating data with random house assignments easy. The only thing I had to go back and update were the student pictures. I couldn't figure out how to get pictures of people to generate with Mockaroo, but this website did most of the work for me in creating my data, so THANK YOU Mockaroo
-- I used Figma by myself for the first time for this project. Figma is great! I was able to put my "vision" on "paper". I will admit that my final product's layout isn't exactly the same as what I created in Figma, but there are definitely elements I kept. That being said, I referenced Figma plenty of times when working on the HTML and CSS to get things looking how I wanted them to. It was time well spent in planning.
-- Break steps into small, small pieces. I spent most of Saturday planning my project before touching a line of code. I wanted to get my idea out and plan what I could foresee. In my GitHub, I created a "project" with this project broken down into small steps. It helped me think through the project to get a fairly clear idea of how I was going to accomplish the technical requirements. Most of my "to do" cards were fairly manageable, but I had a couple that I needed to break down even further after writting a bit of code, so I did which helped me move forward.
-- Now this one I didn't learn from planning, but I wanted to have it here: Ask for help and not 2 hours after you tried to problem solve it. During my project, I was struggling to filter my card properly. I felt like my filter logic was correct, but what was being rendered to the DOM was not what I was expecting. I read through my code so many times trying to figure out where I misspelled something or let something out, but I couldn't find it. I went to Google, but still couldn't find my answer. All this time, I was telling myself, "Just put in a help ticket". I was at war with myself saying I could figure out the problem or it would be embarassing to show admit that I was only at the filtering portion of the project, but I pushed through all those negative thought that were trying to hold me back, swallowed my pride and put in a help ticket. Dr. T had me in her breakout room so fast and figured out the problem in less than 10 minutes. That's how easy it was to move forward. Lesson learned: Don't sit on a problem too long and just put in the help ticket.
