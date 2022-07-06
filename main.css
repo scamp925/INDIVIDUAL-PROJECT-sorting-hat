@@ -56,6 +56,12 @@ ul {
   margin-top: 10px;
 }
 
+.sortBtnDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
 .housesAndStudents {
   margin: 0px 65px;
 }
