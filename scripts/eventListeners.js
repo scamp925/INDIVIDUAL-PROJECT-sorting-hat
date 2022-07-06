@@ -26,6 +26,8 @@ const eventListeners = () => {
 
       form.reset();
 
+      error.style.visibility = "hidden";
+
       alert(`Congratulations! You've been sorted into the ${randomHouse} house!`);
     }
 
