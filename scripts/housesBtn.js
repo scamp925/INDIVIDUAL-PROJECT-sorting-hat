@@ -7,7 +7,10 @@ const housesBtn = () => {
   <button type="button" id="Hufflepuff" class="btn btn-outline-warning">Hufflepuff</button>
   <button type="button" id="Ravenclaw" class="btn btn-outline-primary">Ravenclaw</button>
   <button type="button" id="Slytherin" class="btn btn-outline-success">Slytherin</button>
-  <button type="button" id="allStudents" class="btn btn-outline-secondary">All Students</button>
+  <button type="button" id="allStudents" class="btn btn-outline-dark">All Students</button>
+  </div>
+  <div>
+  <button type="button" class="btn btn-outline-secondary">Sort by Student's Name</button>
   </div>`;
   renderToDom("#housesBtnContainer", domString);
 }
