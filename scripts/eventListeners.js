@@ -26,12 +26,14 @@ const eventListeners = () => {
 
       form.reset();
 
+      error.style.visibility = "hidden";
+
       alert(`Congratulations! You've been sorted into the ${randomHouse} house!`);
     }
 
   });
 
-  // FILTER HOUSE BUTTONS
+  // FILTER HOUSE BUTTONS AND SORT STUDENTS BY NAME
   document.querySelector("#housesBtnContainer").addEventListener("click", (e) => {
     // console.log("You clicked", e.target.id); // Double checking that the btns work; THEY WORK!!
     if (e.target.id === "allStudents") {
@@ -39,6 +41,9 @@ const eventListeners = () => {
     } else if (e.target.id) {
       const filterHouses = students.filter(hogwartsHouse => hogwartsHouse.expelled === true || hogwartsHouse.house === e.target.id);
       cardsOnDom(filterHouses);
+    } else {
+      const sortStudents = students.sort((a, b) => a.name.localeCompare(b.name))
+      cardsOnDom(sortStudents);
     }
   });
 
