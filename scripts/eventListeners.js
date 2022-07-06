@@ -33,7 +33,7 @@ const eventListeners = () => {
 
   });
 
-  // FILTER HOUSE BUTTONS
+  // FILTER HOUSE BUTTONS AND SORT STUDENTS BY NAME
   document.querySelector("#housesBtnContainer").addEventListener("click", (e) => {
     // console.log("You clicked", e.target.id); // Double checking that the btns work; THEY WORK!!
     if (e.target.id === "allStudents") {
@@ -46,8 +46,6 @@ const eventListeners = () => {
       cardsOnDom(sortStudents);
     }
   });
-
-  // SORT STUDENTS BY NAME
 
   //EXPEL A STUDENT BUTTON
   document.querySelector("#studentContainer").addEventListener("click", (e) => {
