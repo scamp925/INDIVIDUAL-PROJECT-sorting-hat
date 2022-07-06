@@ -10,7 +10,7 @@ const housesBtn = () => {
   <button type="button" id="allStudents" class="btn btn-outline-dark">All Students</button>
   </div>
   <div>
-  <button type="button" class="btn btn-outline-secondary">Sort by Student's Name</button>
+  <button type="button" class="btn btn-outline-secondary sortBtn">Sort All Cards by Name</button>
   </div>`;
   renderToDom("#housesBtnContainer", domString);
 }

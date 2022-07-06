@@ -41,8 +41,13 @@ const eventListeners = () => {
     } else if (e.target.id) {
       const filterHouses = students.filter(hogwartsHouse => hogwartsHouse.expelled === true || hogwartsHouse.house === e.target.id);
       cardsOnDom(filterHouses);
+    } else {
+      const sortStudents = students.sort((a, b) => a.name.localeCompare(b.name))
+      cardsOnDom(sortStudents);
     }
   });
+
+  // SORT STUDENTS BY NAME
 
   //EXPEL A STUDENT BUTTON
   document.querySelector("#studentContainer").addEventListener("click", (e) => {
